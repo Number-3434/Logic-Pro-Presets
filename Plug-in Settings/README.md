@@ -17,21 +17,25 @@ All presets are stored as <samp>.pst</samp> files.
 Download the entire folder containing presets.
 
 For example, if you were interested in the [<samp>Channel EQ</samp>](/Plug-in%20Settings/Channel%20EQ/) presets,
-download the entire 
+download the entire
 
-## Default Preset
+##
+
+### Default Preset
 
 The plug-in is inserted with the default preset.
 
-The default can be set, modified, or deleted.
+The default preset can be set, modified, or deleted.
 
-### User Default
+Be default, the default preset is the [<samp>Factory Preset</samp>].
+
+#### User Default
 
 The "User Default" preset is automatically set on plug-in insertion.
 
 When active, the preset name will show up as <samp>User Default</samp>.
 
-#### Defining a Default Preset
+##### Defining a Default Preset
 
 You can define custom default presets using two methods:
 
@@ -41,12 +45,36 @@ You can define custom default presets using two methods:
    You could manually save a preset as the default by naming it <samp>#default</samp>
    (This is used internally to store the default).
 
-#### Clearing the Default Preset
+##### Loading the Default Preset
 
-You can clear the default preset by selecting the default (using <samp><kbd>Recall Default</kbd></samp>),
-or by inserting a new plug-in, and then clicking <samp><kbd>Delete</kbd></samp>
+Either:
+- Insert the plug-in.
+  The plug-in will be automatically initialised with the Default Preset.
 
-### Factory Default
+Or:
+- Open the plug-in.
+  Click the plug-in preset name.
+  This will open a drop-down menu.
+  Click the <samp><kbd>Recall Default</kbd></samp> option.
+
+When the default preset is loaded, the plug-in name will either be:
+- [<samp>User Default</samp>] (if the [<samp>User Default</samp>] preset __is__ defined), or
+- [<samp>Default Preset</samp>] (if the [<samp>User Default</samp>] preset is __not__ defined.
+
+> [!tip]
+> This method is can be used to re-obtain the [<samp>Factory Default</samp>] preset after
+> the [<samp>User Default</samp>] preset is defined.
+>
+> See [Obtaining the](#obtaining-the-factory-default-preset)&nbsp;[<samp>Factory Default</samp>]&nbsp;[Preset](#obtaining-the-factory-default-preset).
+
+##### Clearing the Default Preset
+
+1. [Load the default](#loading-the-default-preset) preset.
+2. Click the plug-in preset name.
+   This will open a drop-down menu showing a list of presets.
+3. Click <samp><kbd>Delete</kbd></samp>
+
+#### Factory Default
 
 The [<samp>Factory Default</samp>] preset is labelled "<samp>Default Preset.pst</samp>"
 
@@ -54,7 +82,7 @@ The [<samp>Factory Default</samp>] preset is labelled "<samp>Default Preset.pst<
 > The [<samp>Factory Default</samp>] is not included, it has been added manually.
 
 > [!tip]
-> #### Obtaining the [<samp>Factory Default</samp>] Setting
+> ##### Obtaining the [<samp>Factory Default</samp>] Preset
 >
 > If you haven't yet defined a [<samp>User Default</samp>]
 > setting, then the [<samp>Factory Default</samp>] is automatically applied on insertion.
@@ -68,3 +96,4 @@ The [<samp>Factory Default</samp>] preset is labelled "<samp>Default Preset.pst<
 <!-- Links -->
 [<samp>User Default</samp>]: #user-default
 [<samp>Factory Default</samp>]: #factory-default
+[<samp>Default Preset</samp>]: #default-preset
