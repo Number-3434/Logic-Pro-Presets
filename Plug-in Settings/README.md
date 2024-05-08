@@ -8,9 +8,13 @@ Plug-in settings are stored as `.pst` files.
 
 
 
+
+
 ## Using Presets
 
 A __preset__ is a copy of all the parameters (excluding Sidechain) of a plug-in.
+
+
 
 
 ### Downloading Presets
@@ -56,6 +60,8 @@ To save a plug-in preset with a custom name:
 > If you name your preset `#default`
 
 
+
+
 ### Default Preset
 The plug-in is inserted with the default preset.
 
@@ -64,13 +70,8 @@ The default preset can be set, modified, or deleted.
 Be default, the default preset is the [`Factory Default`].
 
 
-#### User Default
-The "User Default" preset is automatically set on plug-in insertion.
 
-When active, the preset name will show up as `User Default`.
-
-
-##### Defining a Default Preset
+#### Defining a Default Preset
 You can define custom default presets using two methods:
 
 __Option A: Save as Default__
@@ -100,7 +101,8 @@ __Option B: Manual Naming__
    (This is used internally to identify the default preset).
 
 
-##### Loading the Default Preset
+
+#### Loading the Default Preset
 Either:
 - Insert the plug-in.
   The plug-in will be automatically initialised with the [`Default Preset`].
@@ -122,20 +124,33 @@ When the default preset is loaded, the plug-in name will either be:
 > See [Obtaining the](#obtaining-the-factory-default-preset)&nbsp;[`Factory Default`]&nbsp;[Preset](#obtaining-the-factory-default-preset).
 
 
-##### Deleting the `User Default` Preset
+
+
+#### Deleting the Default Preset
 1. [Load the default](#loading-the-default-preset) preset.
 2. Click the plug-in preset name.
    This will open a drop-down menu showing a list of presets.
 3. Click <samp><kbd>Delete</kbd></samp>
 
 
-#### Factory Default
+
+
+
+### User Default
+The "User Default" preset is automatically set on plug-in insertion.
+
+When active, the preset name will show up as `User Default`.
+
+
+
+
+### Factory Default
 The [`Factory Default`] preset is labelled `Default Preset.pst`.
 
 > [!note]
 > The [`Factory Default`] is not included, but has been added manually.
 > 
-> ##### Obtaining the [`Factory Default`] Preset
+> #### Obtaining the [`Factory Default`] Preset
 > This is useful if you want to define your own [`User Default`] preset,
 > but don't want to lose the [`Factory Default`].
 > 
@@ -148,9 +163,16 @@ The [`Factory Default`] preset is labelled `Default Preset.pst`.
 >   This happens even if the user has defined other presets.
 >
 > - Else:
->   - [Delete the](#deleting-the-user-default-preset)&nbsp;[`User Default`]&nbsp;[preset](#deleting-the-user-default-preset).
+>   - [Delete the](#deleting-the-default-preset)&nbsp;[`User Default`]&nbsp;[preset](#deleting-the-default-preset).
 >   - [Load](#loading-the-default-preset) the [`Default Preset`].
->   - Save the current preset. Ideally, name it something like 
+>   - Save the current preset. Ideally, name it something like `Default Preset`.
+
+
+
+
+
+
+
 
 <!-- Links -->
 [`User Default`]: #user-default
