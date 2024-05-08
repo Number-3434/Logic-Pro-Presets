@@ -4,7 +4,7 @@ This contains all the plug-in presets I use in Logic Pro.
 
 Note that some presets are for external plug-ins, which will need downloading.
 
-All plug-in settings are <samp>.pst</samp> files.
+Plug-in settings are stored as <samp>.pst</samp> files.
 
 ## Using Presets
 
@@ -13,6 +13,11 @@ A preset is a copy of all the parameters (excluding Sidechain) of a plug-in.
 All presets are stored as <samp>.pst</samp> files.
 
 ### Downloading Presets
+
+Download the entire folder containing presets.
+
+For example, if you were interested in the [<samp>Channel EQ</samp>](/Plug-in%20Settings/Channel%20EQ/) presets,
+download the entire 
 
 ## Default Preset
 
