@@ -13,3 +13,9 @@ All plug-in settings are <samp>.pst</samp> files.
 ### Factory Default
 
 The factory default is labelled "<samp>Default Preset</samp>"
+
+> [!tip]
+> #### Obtaining the Factory Default Setting
+> The factory default preset can be obtained by deleting the [User Default](#User%20Default).
+>
+> 
