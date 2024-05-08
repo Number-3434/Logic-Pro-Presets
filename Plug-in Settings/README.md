@@ -16,6 +16,13 @@ The factory default is labelled "<samp>Default Preset</samp>"
 
 > [!tip]
 > #### Obtaining the Factory Default Setting
-> The factory default preset can be obtained by deleting the [User Default](#user-default).
+>
+> If you haven't yet defined a [<samp>User Default</samp>](#user-default)
+> setting, then the 
+>  the [User Default](#user-default).
 >
 > 
+
+<!-- Links -->
+[<samp>User Default</samp>]: #user-default
+[<samp>Factory Default</samp>]: #factory-default
