@@ -11,7 +11,6 @@ Plug-in settings are stored as `.pst` files.
 
 
 ## Using Presets
-
 A __preset__ is a copy of all the parameters (excluding Sidechain) of a plug-in.
 
 
@@ -57,8 +56,21 @@ To save a plug-in preset with a custom name:
 > the plug-in window), and selecting <samp><kbd>`Snazzy`</kbd> > <kbd>`Vibrant`</kbd></samp>.
 
 > [!important]
-> If you name your preset `#default`
+> If you name your preset `#default`,
+> with the preset directly inside the plug-in presets folder,
+> the preset will act as the [`Default Preset`].
 
+> [!note]
+> 1. Any files not ending in `.pst` will be ignored.
+> 2. Furthermore, all empty folders will also be ignored.
+> 3. If there are no user presets, then all the "App"
+>    (built-in) presets will show up at the top-level.
+>
+>    Once a user preset has been defined, all the user's
+>    presets will now appear at the top level instead.
+>
+>    All the App Presets will then appear inside a folder
+>    underneath the User Presets labelled `App Presets`.
 
 
 
@@ -130,7 +142,7 @@ When the default preset is loaded, the plug-in name will either be:
 1. [Load the default](#loading-the-default-preset) preset.
 2. Click the plug-in preset name.
    This will open a drop-down menu showing a list of presets.
-3. Click <samp><kbd>Delete</kbd></samp>
+3. Click <samp><kbd>Delete</kbd></samp>.
 
 
 
